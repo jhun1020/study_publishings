@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Forms - input types</h3>
+    <form action="./forms.html" method="get" id="form_01">
+      <div>
+        <label for="">password</label>
+        <input type="password" name="password" id="" />
+      </div>
+      <div>
+        <label for="">Publiching Langs</label>
+        <!-- 이름을 맞춰주면 하나의 그룹화 -->
+        <div>
+          <input type="radio" name="langs" value="HTML" id="HTML" />
+          <label for="HTML">HTML</label>
+        </div>
+        <div>
+          <input type="radio" name="langs" value="CSS" id="CSS" />
+          <label for="CSS">CSS</label>
+        </div>
+        <div>
+          <input type="radio" name="langs" value="JavaScript" id="JavaScript" />
+          <label for="JavaScript">JavaScript</label>
+        </div>
+        <div>Vehicles</div>
+        <div>
+          <input type="checkbox" name="Bike" value="bike" id="bike_id" />
+          <label for="bike+bike_id">Bike</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Bus" value="bus"" id="bus_id">
+          <label for="bus_id">Bus</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Car" value="car" id="car_id">
+          <label for="car_id">Car</label>
+        </div>
+<div>
+    <label for="">Choose Date</label>
+    <input type="date" name="Date" id=""> 
+</div>
+
+<div>
+    <input type="hidden" name="cusId" value="U01">
+    <input type="hidden" name="answerId" value="U03">
+</div>
+
+
+        </div>
+        <hr />
+        <div>
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </div>
+      </div>
+    </form>
+    <!-- 폼 태그 바깥의 리셋버튼이 작동하게 하려면 for을 써서 소속을 알려줘야 함 -->
+    <hr>
+    <button type="reset" for="form_01">Reset without form</button>
+    <hr />
+    <h3>
+      <a href="../index.html" target="_self">back index</a>
+    </h3>
+
+  </body>
+</html>

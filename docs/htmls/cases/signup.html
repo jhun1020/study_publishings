@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div><a href="../../index.html" target="_self">back index</a></div>
+    <hr />
+    <h3>sign up</h3>
+    <!-- http://127.0.0.1:5501/docs/index.html?name=%EC%9D%B4%EC%A0%95%ED%9B%88&ID=jhun&Password=123456&CheckPassword=123456&mail=jhun1020&mail=&mail=www.naver.com&phone=5730&phone=5701&home_phone=&home_phone=&postcode=15800&address=%EA%B2%BD%EA%B8%B0%EB%8F%84&address=%EA%B5%B0%ED%8F%AC%EC%8B%9C&receive_Email=on&receive_SMS=on -->
+
+    <form action="../../index.html" method="get" id="sign">
+      <table border="1">
+        <tr>
+          <h4>기본정보</h4>
+          <td>이름</td>
+
+          <td>
+            <input type="text" name="name" id="" />
+          </td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">아이디</td>
+          <td>
+            <input type="text" name="ID" id="" />
+            <label for=""><button type="submit">아이디중복확인</button></label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div>6~16자까지 영문자(소문자), 숫자 사용 가능합니다.</div>
+          </td>
+        </tr>
+        <tr>
+          <td>비밀번호</td>
+          <td>
+            <input type="password" name="Password" id="" />
+            <div>
+              6~16자까지 영문자(대소문자), 숫자 및 특수문자 사용 가능합니다.
+            </div>
+            <div>3자리 연속 또는 같은 문자, 아이디는 사용하실 수 없습니다.</div>
+          </td>
+        </tr>
+        <tr>
+          <td>비밀번호 확인</td>
+          <td>
+            <input type="password" name="CheckPassword" id="" />
+          </td>
+        </tr>
+        <tr>
+          <td>이메일</td>
+          <td>
+            <input type="text" name="mail" />@
+            <input type="text" name="mail" id="" />
+            <select name="mail" id="">
+              <option value="메일주소선택">메일주소선택</option>
+              <option value="www.naver.com">naver</option>
+              <option value="www.google.com">google</option>
+              <option value="www.daum.net">daum</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>연락처</td>
+          <td>
+            <div>
+              휴대전화
+              <select name="" id="">
+                <option value="010">010</option>
+                <option value="011">011</option>
+              </select>
+              <label for="">-</label>
+              <input type="text" name="phone" />
+              <label for="">-</label>
+              <input type="text" name="phone" />
+            </div>
+            <div>
+              <label for="">일반전화</label>
+              <select name="" id="">
+                <option value="선택">선택</option>
+                <option value="02">02</option>
+                <option value="031">031</option>
+              </select>
+              <label for="">-</label>
+              <input type="text" name="home_phone" />
+              <label for="">-</label>
+              <input type="text" name="home_phone" />
+            </div>
+            <div>연락처는 둘 중 하나만 입력해도 됩니다.</div>
+          </td>
+        </tr>
+        <tr>
+          <td>우편번호</td>
+          <td>
+            <input type="text" name="postcode" id="" />
+            <label for=""><button type="submit">주소검색</button> </label>
+          </td>
+        </tr>
+        <tr>
+          <td>주소</td>
+          <td>
+            <input type="text" name="address" id="" />
+            <div>
+              <input type="text" name="address" id="" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>정보수신 여부</td>
+          <td>
+            <label for="">서비스 및 이벤트 소식을</label>
+            <input
+              type="checkbox"
+              name="receive_Email"
+              id="Email로 수신하겠습니다."
+            />
+            <label for="Email로 수신하겠습니다.">Email로 수신하겠습니다.</label>
+            <input
+              type="checkbox"
+              name="receive_SMS"
+              id="SMS로 수신하겠습니다."
+            />
+            <label for="SMS로 수신하겠습니다.">SMS로 수신하겠습니다.</label>
+          </td>
+        </tr>
+      </table>
+
+      <button type="submit" id="sign">send</button>
+    </form>
+  </body>
+</html>
