@@ -38,7 +38,7 @@
         <tr>
           <td>비밀번호</td>
           <td>
-            <input type="password" name="Password" id="" />
+            <input type="password" name="password" id="" />
             <div>
               6~16자까지 영문자(대소문자), 숫자 및 특수문자 사용 가능합니다.
             </div>
@@ -48,15 +48,15 @@
         <tr>
           <td>비밀번호 확인</td>
           <td>
-            <input type="password" name="CheckPassword" id="" />
+            <input type="password_check" name="checkPassword" id="" />
           </td>
         </tr>
         <tr>
           <td>이메일</td>
           <td>
-            <input type="text" name="mail" />@
-            <input type="text" name="mail" id="" />
-            <select name="mail" id="">
+            <input type="text" name="mail_first" />@
+            <input type="text" name="mail_second" id="" />
+            <select name="mail_choose" id="">
               <option value="메일주소선택">메일주소선택</option>
               <option value="www.naver.com">naver</option>
               <option value="www.google.com">google</option>
@@ -69,26 +69,26 @@
           <td>
             <div>
               휴대전화
-              <select name="" id="">
+              <select name="phone_first" id="">
                 <option value="010">010</option>
                 <option value="011">011</option>
               </select>
               <label for="">-</label>
-              <input type="text" name="phone" />
+              <input type="text" name="phone_second" />
               <label for="">-</label>
-              <input type="text" name="phone" />
+              <input type="text" name="phone_third" />
             </div>
             <div>
               <label for="">일반전화</label>
-              <select name="" id="">
+              <select name="home_phone_choose" id="">
                 <option value="선택">선택</option>
                 <option value="02">02</option>
                 <option value="031">031</option>
               </select>
               <label for="">-</label>
-              <input type="text" name="home_phone" />
+              <input type="text" name="home_phone_first" />
               <label for="">-</label>
-              <input type="text" name="home_phone" />
+              <input type="text" name="home_phone_second" />
             </div>
             <div>연락처는 둘 중 하나만 입력해도 됩니다.</div>
           </td>
@@ -103,9 +103,9 @@
         <tr>
           <td>주소</td>
           <td>
-            <input type="text" name="address" id="" />
+            <input type="text" name="address_first" id="" />
             <div>
-              <input type="text" name="address" id="" />
+              <input type="text" name="address_second" id="" />
             </div>
           </td>
         </tr>
