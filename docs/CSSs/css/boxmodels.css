@@ -60,3 +60,13 @@
   border-bottom: 3px dotted violet;
   /* 수치, 굵기, 색의 순서 */
 }
+
+.border-round-5 {
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.border-round-20 {
+  border-style: solid;
+  border-radius: 20px;
+}
