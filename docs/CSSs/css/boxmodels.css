@@ -62,11 +62,43 @@
 }
 
 .border-round-5 {
-  border-style: solid;
+  border: 2px solid red;
   border-radius: 5px;
 }
 
 .border-round-20 {
-  border-style: solid;
+  border: 2px solid red;
   border-radius: 20px;
+}
+
+.margins-10px {
+  margin: 10px 10px 10px 10px;
+}
+
+.margins-20px {
+  margin: 20px 20px 20px 20px;
+}
+
+.paddings-10px {
+  padding: 10px 10px 10px 10px;
+}
+
+.paddings-20px {
+  padding: 20px 20px 20px 20px;
+}
+
+.width-50px {
+  width: 50px;
+  height: 50px;
+}
+
+.width-50 {
+  /* %는 특수기호라 이름에 안넣는게 좋음 */
+  width: 50%;
+  height: 50%;
+}
+
+.shadow-20px {
+  box-shadow: 0px 20px rgba(255, 0, 0, 0.1);
+  /* 가로 그림자 거리,  세로 */
 }
