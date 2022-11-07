@@ -1,0 +1,47 @@
+* {
+  margin-top: 5px;
+  /*  * 전체 태그라는 의미,  전체 태그에 공통으로 넣어주는 것 */
+}
+
+.dotted {
+  border-style: dotted;
+}
+
+.double {
+  border-style: double;
+}
+
+.solid {
+  border-style: solid;
+}
+
+.dashed {
+  border-style: dashed;
+}
+
+.mixed {
+  border-style: solid double dotted dashed;
+  /* top부터 시계방향으로 돌아감 */
+}
+
+.solid-5px {
+  border-width: 5px;
+  /* 여기까지만 작성하면 적용은 되지만 스타일이 없기 때문에 티가 안남 */
+  border-style: solid;
+}
+
+.mixed-5px {
+  border-style: solid;
+  border-width: 1px 3px 5px 7px;
+  /* 이것도 마찬가지로 top부터 시계방향 기준 */
+}
+
+.solid-red {
+  border-style: solid;
+  border-color: purple;
+}
+
+.mixed-color {
+  border-style: solid;
+  border-color: blue rgba(255, 0, 0, 1) rgba(0, 255, 0, 0.5) rgb(4, 41, 4);
+}
