@@ -45,3 +45,18 @@
   border-style: solid;
   border-color: blue rgba(255, 0, 0, 1) rgba(0, 255, 0, 0.5) rgb(4, 41, 4);
 }
+
+.border-short {
+  border: 5px solid blue;
+  /* 수치, 굵기, 색의 순서 */
+}
+
+.border-short-left {
+  border-left: 10px solid red;
+  /* 수치, 굵기, 색의 순서 */
+}
+
+.border-short-bottom {
+  border-bottom: 3px dotted violet;
+  /* 수치, 굵기, 색의 순서 */
+}
