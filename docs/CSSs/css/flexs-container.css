@@ -1,0 +1,43 @@
+* {
+  border: 1px dotted gray;
+}
+.flex-container {
+  background-color: skyblue;
+  display: flex;
+  /* 기본값이 row  */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* 반대로  */
+  /* flex-direction: row-reverse; */
+
+  /* 아이템이라고 생각하면 편함 */
+  /* 앞,뒤,중앙으로 정렬시킴
+  /* justify-content: end; */
+  /* justify-content: start; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* 메뉴바에 자주 사용/ 간격을 알아서 벌려줌 */
+  /* justify-content: space-between; */
+  /* 양 끝에 붙고 가운데 정렬 */
+}
+.flex-container > div {
+  font-size: 30px;
+  background-color: azure;
+  width: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.flex-container-column {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-container-column > div {
+  font-size: 30px;
+  background-color: azure;
+  width: 50px;
+  padding: 10px;
+  margin: 10px;
+}

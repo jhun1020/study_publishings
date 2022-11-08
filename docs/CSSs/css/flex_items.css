@@ -1,0 +1,6 @@
+.ul-flat {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  justify-content: space-around;
+}
