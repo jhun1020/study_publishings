@@ -1,0 +1,26 @@
+/* * {
+  border: 1px dotted gray;
+} */
+
+.text-align {
+  text-align: center;
+}
+
+.background {
+  background-color: rgb(0, 83, 159);
+  margin: 0px;
+}
+
+.outline {
+  border: 2px solid black;
+  margin: 0px 20% 0px 20%;
+  background-color: rgb(255, 149, 0);
+  padding: 10px;
+}
+
+.text-weight {
+  font-size: 40px;
+  font-weight: 900;
+  text-shadow: 2px 2px black;
+  color: rgb(0, 83, 159);
+}
