@@ -3,10 +3,10 @@
   font-size: 35px;
 }
 
-ul {
+.ul-flat {
   list-style-type: none;
   display: inline-block;
-  background-color: yellow;
+
   padding: 20px;
   text-align: center;
 }
@@ -15,4 +15,9 @@ li {
   display: inline-block;
   padding: 5px 20px;
   font-size: 25px;
+}
+
+.menu-outline {
+  text-align: center;
+  background-color: yellow;
 }
