@@ -5,6 +5,10 @@
 li {
   list-style-type: none;
 }
+.div_center {
+  display: flex;
+  justify-content: center;
+}
 .o_li_left {
   list-style-type: none;
   margin: 10px;
