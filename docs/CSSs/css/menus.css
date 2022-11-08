@@ -1,0 +1,17 @@
+.title {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  background-color: yellow;
+  padding: 20px;
+}
+
+li {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 25px;
+}
