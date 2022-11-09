@@ -1,0 +1,41 @@
+/* * {
+  border: 1px dotted gray;
+} */
+.outdiv {
+  padding: 0px;
+}
+.outline {
+  display: flex;
+}
+.outline_left {
+  list-style-type: none;
+  width: 70px;
+  padding-left: 10px;
+  height: 200px;
+  margin: 0px 5px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.outline_right {
+  height: 200px;
+}
+
+.submit_button {
+  width: 300px;
+  padding: 30px 0px 0px 0px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.table_title {
+  background-color: rgb(255, 160, 122);
+  color: white;
+  text-align: center;
+}
+
+.table_content {
+  background-color: beige;
+}
