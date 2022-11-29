@@ -20,6 +20,7 @@ function new_task() {
   query_task_list.insertAdjacentHTML("beforeend", new_task);
 }
 
+// 클릭했을 때
 query_task_list.addEventListener("click", (event) => {
   if (event.target.innerHTML == "delete") {
     event.target.parentElement.parentElement.parentElement.remove();
@@ -32,5 +33,12 @@ query_task_list.addEventListener("click", (event) => {
   if (event.target.id == "favorite_true") {
     event.target.id = "favorite_false";
     return;
+  }
+});
+
+// 엔터쳤을때
+input_task.addEventListener("keydown", (event) => {
+  if (event.code == "Enter") {
+    new_task();
   }
 });
