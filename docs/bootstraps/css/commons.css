@@ -1,9 +1,10 @@
 body {
-  padding: 2rem;
-  margin: 1rem;
+  /* padding: 2rem; */
+  /* margin: 1rem; */
 }
 
-div {
-  padding: 1rem 0rem;
-  margin-top: 1rem;
+* {
+  /* padding: 1rem 0rem; */
+  /* margin-top: 1rem; */
+  border: 0.1rem solid gray;
 }
