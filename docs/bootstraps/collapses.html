@@ -18,11 +18,34 @@
       <div class="fs-3">Collapses</div>
 
       <div>
-        <button class="btn btn-primary">link with href</button>
+        <a
+          href="#collapseTarget"
+          class="btn btn-primary"
+          data-bs-toggle="collapse"
+        >
+          link with href</a
+        >
+        <!-- <button class="btn btn-primary" data-bs-target="#collapseTarget">
+          link with href
+        </button> -->
       </div>
-      <div>
-        <div class="card card-body"></div>
+
+      <div id="collapseTarget" class="collapse">
+        <div class="card card-body">
+          모로코, 승부차기로 스페인 꺾고 첫 8강...
+        </div>
       </div>
+
+      <hr />
+
+      <!-- d-b-target : href 의 역할 -->
+      <button
+        class="btn btn-primary"
+        data-bs-target="#collapseTarget"
+        data-bs-toggle="collapse"
+      >
+        link with
+      </button>
     </div>
 
     <script
